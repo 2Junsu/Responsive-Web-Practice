@@ -31,6 +31,10 @@
     margin-left: 8px;
 }
 
+.header__title:hover {
+    cursor: pointer;
+}
+
 .header__center {
     width:50%;
 }
@@ -54,6 +58,11 @@
     border-radius: 0 4px 4px 0;
 }
 
+.header__input--button:hover{
+    background-color: #cccccc;
+    cursor:pointer;
+}
+
 .header__end {
     display:flex;
 }
@@ -72,13 +81,13 @@
     background-color: tomato;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     .header__title {
         display:none;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     .header__center{
         display: none;
     }
